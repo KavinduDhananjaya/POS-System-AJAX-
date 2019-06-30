@@ -1,0 +1,23 @@
+create database MyPos;
+use MyPos;
+
+create table customer(
+FirstName varchar(50),
+LastName varchar(50),
+CID varchar(50),
+Address varchar(50),
+Email varchar(50),
+Tell varchar(50),
+constraint primary key(CID)
+);
+
+
+create table item(
+ItemCode varchar(50),
+ItemName varchar(50),
+ItemBrand varchar(50),
+UnitPrice double(20,2),
+Quantity varchar(50),
+constraint primary key(ItemCode)
+);
+ 

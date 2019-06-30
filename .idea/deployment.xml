@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="pos" deleteMissingItems="true" createEmptyFolders="true">
+    <serverData>
+      <paths name="pos">
+        <serverdata>
+          <mappings>
+            <mapping deploy="POS-AJAX" local="$PROJECT_DIR$" web="/POS-AJAX" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
