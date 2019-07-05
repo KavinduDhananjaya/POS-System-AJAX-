@@ -115,16 +115,16 @@
 
 <div class="ui inverted menu" style="width: 98%;height: 60px;margin-left: 13px;font-size: 20px;background-color: #33383C">
 
-    <a class="item" style="padding-left: 65px;padding-right: 75px" href="dashbord.html">
+    <a class="item" style="padding-left: 65px;padding-right: 75px" href="dashbord.php">
         <img src="image/icons8_Real_Estate.ico" alt="">Dashbord
     </a>
-    <a class="item" style="padding-left: 70px;padding-right: 75px" href="customer1.html">
+    <a class="item" style="padding-left: 70px;padding-right: 75px" href="customer1.php">
         <img src="image/icons8_Customer.ico" alt="">Customer
     </a>
-    <a class="item " style="padding-left: 85px;padding-right: 80px" href="item1.html">
+    <a class="item " style="padding-left: 85px;padding-right: 80px" href="item1.php">
         <img src="image/icons8_Trolley.ico" alt="">Item
     </a>
-    <a class="item " style="padding-left: 85px;padding-right: 75px" href="order.html">
+    <a class="item " style="padding-left: 85px;padding-right: 75px" href="order.php">
         <img src="image/icons8_Buy.ico" alt=""> Order
     </a>
     <a class="item " style="padding-left: 75px;padding-right: 75px" href="Reports.html">
@@ -160,7 +160,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Order ID</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="ID">
+                <input type="text" class="form-control" id="inputEmail" placeholder="ID">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputPasswrd4">Order Date</label>
@@ -171,14 +171,14 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4"> Customer ID</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="ID">
+                <input type="text" class="form-control" id="inputEmail" placeholder="ID">
             </div>
         </div>
 
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">First Name</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="ID">
+                <input type="text" class="form-control" id="inputEmail" placeholder="First Name">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputPasswrd4">Last Name</label>
@@ -189,13 +189,13 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control"  placeholder="@gmail.com">
+                <input type="text" class="form-control"  placeholder="@gmail.com">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Tell</label>
-                <input type="email" class="form-control"  placeholder="+94">
+                <input type="text" class="form-control"  placeholder="+94">
             </div>
         </div>
 

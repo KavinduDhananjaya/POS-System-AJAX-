@@ -13,12 +13,10 @@
     <title>Register Customer</title>
 
     <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
-    <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <script src="js/semantic.min.js"></script>
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/cssDashbord.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -29,18 +27,19 @@
 <body>
 
 
-<header style="width:100%" >
+<header style="width:100%">
     <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark" style="height: 75px">
 
         <img src="image/k.png" alt="" width="160" style="padding: 10px">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" >
+                    <a class="nav-link" href="#">
                         <i class="fa fa-home"></i>
                         Home
                         <span class="sr-only">(current)</span>
@@ -158,11 +157,11 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">First Name</label>
-                <input type="text" class="form-control"  placeholder="First Name" name="firstname" id="kk">
+                <input type="text" class="form-control" placeholder="First Name" name="firstname" id="kk">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputPasswrd4">Last Name</label>
-                <input type="text" class="form-control"  placeholder="Last Name" name="lastname">
+                <input type="text" class="form-control" placeholder="Last Name" name="lastname">
             </div>
         </div>
 
@@ -175,19 +174,19 @@
         </div>
         <div class="form-group">
             <label for="inputAddress">Address </label>
-            <input type="text" class="form-control"  placeholder="1234 Main St" name="address" >
+            <input type="text" class="form-control" placeholder="1234 Main St" name="address">
         </div>
 
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Email</label>
-                <input type="text" class="form-control"  placeholder="@gmail.com" name="email">
+                <input type="text" class="form-control" placeholder="@gmail.com" name="email">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Tell</label>
-                <input type="text" class="form-control"  placeholder="+94" name="tell">
+                <input type="text" class="form-control" placeholder="+94" name="tell">
             </div>
         </div>
 
@@ -199,7 +198,9 @@
                 </label>
             </div>
         </div>
-        <button type="button" class="btn btn-primary" id="btnRegister"><i class="fas fa-check-circle" style="font-size: 25px;padding-right: 10px"></i>Register</button>
+        <button type="button" class="btn btn-primary" id="btnRegister"><i class="fas fa-check-circle"
+                                                                          style="font-size: 25px;padding-right: 10px"></i>Register
+        </button>
     </form>
 </section>
 
